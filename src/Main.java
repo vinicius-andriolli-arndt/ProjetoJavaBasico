@@ -143,7 +143,7 @@ public class Main {
             System.out.println((i + 1) + "º - " + student.getCode() + " - " + student.getName() + " : Média = " + String.format("%.1f", note));
         }
     }
-//a
+
     private static float getAverage(Studant student) {
         return (student.getTestOne() + student.getTestTwo() + student.getTestThree()) / 3.0f;
     }
